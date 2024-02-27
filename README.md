@@ -7,6 +7,7 @@ Welcome to the GitHub repository for the Digital Bridge Foundation website. This
 
 ## Team Members & Responsibilities:
 
+
 1. **Kennidy**:
    - **Tasks**:
      - Design and develop the **Home Page**.
