@@ -1,0 +1,266 @@
+    body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+div .elder-people{
+    width: 100vh;
+    background-color: rgb(207, 212, 201);
+}
+
+#logotac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 83.77px;
+}
+
+   
+    ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav {
+        background-color:rgb(106, 149, 105);
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: serif;
+        color: white;
+        padding: 10px;
+    }
+
+    a:hover {
+        color:black;
+    }
+
+    footer {
+        background-color: rgb(106, 149, 105);
+        padding: 20px;
+        display: list-item;
+    }
+    .icons{
+        display: flex;
+        justify-content:center;
+        margin-top: auto;
+    }
+    main {
+        flex-grow: 1;
+    }
+
+    #left-words {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        padding-left: 22px;
+    }
+
+    .left {
+        justify-content: flex-start;
+        z-index: 1;
+    }
+
+    .left-icon {
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        z-index: 2;
+        padding-right: 350px;
+    }
+
+    #right-words {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        padding-left: 350px;
+    }
+
+    h3 {
+        display: flex;
+        position: relative;
+    }
+
+    .right {
+        justify-content: flex-end;
+        z-index: 1;
+    }
+
+    .right-form {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 2;
+        padding-right:50px;
+        padding-top: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .old {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 47%;
+    }
+
+    section h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(106, 149, 105);
+
+    }
+    label{
+        font-weight: bold;
+        text-align: left;
+    }
+   
+    
+     .box-display{
+        height: 640px;
+        width: 640px;
+        border: 3px solid rgb(106, 149, 105);
+        box-shadow: 5px 10px rgb(120, 139, 117);
+        animation-name: box-display;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        display: inline-block; 
+        border-radius: 20px;
+     }
+
+    @keyframes box-display{
+            
+        0% {
+            background-image: url(images/old\ lady\ \ with\ \ cell\ phone\ .jpeg);
+            background-size: 600px 640px;
+    
+        }
+        25% {
+            background-image: url(images/man\ using\ phone.jpeg);
+            background-size: 600px 640px ;
+        }
+        50%{
+            background-image: url(images/happy\ couple\ using\ phone.jpeg);
+            background-size: 600px 640px;
+        }
+
+        
+        100%{
+            background-image: url(images/old\ people\ pay\ bills.jpeg);
+            background-size: 600px 640px;
+        }   
+    }
+ 
+    .form-box-right, h2{
+       text-align:center ;
+    }
+
+    .form-box-right{
+        text-align: right;
+        background-color: rgb(106, 149, 105);
+        margin: 0px 0px 300px;
+        float:right;
+        width: 1100px;
+        height: 600px;
+     
+    
+    }  
+
+    :placeholder-shown{
+        text-align: left;
+    }
+
+    form{
+        display: flex;
+        flex-direction:column;
+       
+    } 
+   
+    input{
+        width: 100%;
+
+    } 
+    .name{
+        height: 50px;
+    }
+
+    .form-box-right .email{
+        height: 50px;
+    }
+
+    .phone{
+        height: 50px;
+    }
+
+     textarea{
+        height: 250px; 
+    } 
+    button{
+        background-color:green ;
+        color: white;
+    } 
+    button:hover{
+        background-color: white;
+        color:black;
+    } 
+    
+     .form-box-left img{
+        height :50px;
+
+    } 
+     .form-box-left h2{
+       text-align: left;
+    } 
+    
+     .form-box-left{
+        font-size: 25px;
+        padding:20px;
+        height: 400px;
+        width: 800px;
+        display: inline-block;
+     }
+
+    .volunteer{
+        text-align: right;
+    }
+
+    .volunteer img{
+    height: 600px;
+    width: 700px;
+    float: right;
+    padding: 0px;
+    box-shadow: 5px 10px rgb(120, 139, 117);
+    border: 3px solid rgb(106, 149, 105);
+    margin-top: -527px;
+    border-radius: 20px;
+    }
+
+    .volunteer h2{
+        text-align: right;
+    }
+
+
+    #elderpeople{
+        height: 300px;
+        width: 100%;
+        opacity: 60%;
+        border-radius: 75%;
+        background-color: rgb(207, 212, 201);
+    }

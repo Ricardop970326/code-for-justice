@@ -1,0 +1,319 @@
+    
+    body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    nav {
+    background-color:rgb(106, 149, 105);
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: serif;
+        color: white;
+        padding: 10px;
+    }
+
+    a:hover {
+        color:black;
+    }
+
+    footer {
+        background-color: rgb(106, 149, 105);
+        padding: 10px;
+        display: list-item;
+    }
+
+    .icons{
+        display: flex;
+        justify-content:center;
+        margin-top: auto;
+    }
+
+
+    #left-words {
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 22px;
+    }
+
+    #old {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 47%;
+    }
+
+    .old-picture {
+        background-color: rgb(207, 212, 201);
+        display: flex;
+        justify-content: inline-block;
+    }   
+
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    #logo {
+        position: absolute;
+        top: 0.5%;
+    }
+
+
+    .fun-facts {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(231, 242, 231);
+        border-radius: 10px;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        width: 80%;
+        margin: auto;
+        box-shadow: 5px 10px rgb(120, 139, 117);
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    #fact1 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        border-color:rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+        padding-top: 22px;
+    
+    }
+
+    #fact2 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        border-color:rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+        padding-top: 25px;
+    }
+
+    #fact3 {
+        border-radius: 10px;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+        border-width: 2px;
+        border-color: rgb(203, 232, 205);
+        box-shadow: 5px 10px rgb(202, 216, 199);
+    }
+
+    #DBG {
+        text-shadow: 2px 2px 4px rgb(179, 218, 179);
+        letter-spacing: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #DBG2 {
+        text-shadow: 2px 2px 4px rgb(179, 218, 179);
+        letter-spacing: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    #paragraph {
+        background-color: rgb(231, 242, 231);
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: black;
+        box-shadow: 5px 10px rgb(120, 139, 117);
+        padding: 25px;
+        font-size: 22px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    #people-phones {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px;
+    }
+    
+    .old-phones {
+        border-width: 2px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: rgb(146, 180, 150);
+        
+    }
+
+    #bottom-box {
+        padding-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+
+        header {
+            padding: 3px;
+            max-width: 100%;
+          }
+        
+          .old-picture {
+            flex-direction: column;
+          }
+  
+          #old {
+              max-width: 50%;
+          }
+  
+          #logo {
+              max-width: 15%;
+              position: absolute;
+              top: 1.25%;
+          }  
+        
+        #people-phones {
+            display: list-item;
+            padding: 0px;
+            margin-left: 70px;
+            list-style: none;
+           
+        }
+
+        #third-pic {
+            margin-left: 160px;
+        }
+
+        #second-pic {
+            margin: 15px;
+        }
+
+        #first-pic {
+            margin: 5px;
+        }
+        
+    }
+
+    @media (min-width: 321px) and (max-width: 708px) {
+
+        .fun-facts {
+            display:list-item;
+            list-style: none;
+        }
+
+        #people-phones img {
+            display: none;
+        }
+
+        #people-phones img:first-child {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+  
+    @media (max-width: 320px) {
+        
+        header {
+          padding: 3px;
+          max-width: 100%;
+        }
+      
+        .old-picture {
+          flex-direction: column;
+        }
+
+        #old {
+            max-width: 50%;
+        }
+
+        #logo {
+            max-width: 15%;
+            position: absolute;
+            top: 1.25%;
+        }
+
+        .navbar {
+            padding: 3px;
+          }
+    
+        .navbar li {
+            margin: 3px 0;
+            text-align: center;
+            font-size: 8px;
+          }
+
+        #DBG {
+            font-size: 39px;
+            text-align: center;
+        }
+
+        .fun-facts {
+            display:list-item;
+            list-style: none;
+        }
+
+        #people-phones {
+            display: none;
+        }
+
+        #left-words {
+            display: none;
+        }
+
+        .left-icon {
+            padding-left: 30px;
+        }
+    
+    }
+
+
+div .elder-people{
+    width: 100vh;
+    background-color: rgb(207, 212, 201);
+}
+
+#logotac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 83.77px;
+}
+
+
+#elderpeople{
+    height: 300px;
+    width: 100%;
+    opacity: 60%;
+    border-radius: 75%;
+    background-color: rgb(207, 212, 201);
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact-us.css" />
+    <script src="contact-us.js"></script>
+    <title>Code for Justice</title>
+</head>
+
+<body>
+    <header>
+        <img src="takeaction-pictures/logotakeaction.png" id="logotac" alt="talogo">
+        
+            <div><img src="takeaction-pictures/elderpeople.jpg" alt="header-img" id="elderpeople" class ="elder-people"></div>
+            </header>
+        
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="program.html">Programs and Services</a></li>
+                    <li><a href="takeaction.html">Take Action</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </nav>
+    <!-- This is were i will put my keyframes -->
+    <section>
+        <h1> Connect With Us</h1>
+        <div class="box-display"> </div>
+    
+    <!-- This section will include the contact form -->
+    <div class="form-box-right">
+    <h2>Send us a message</h2>
+    <form  action="" id="form" onsubmit="validateForm()">
+        <label> Name</label><input type="text" class="name" id="name" placeholder="First and Last Name"required >
+        <label> Email</label><input type="email" class="email" id="email" placeholder="DBF@mail.com"required>
+        <label> Phone #</label><input type="text" class= phone id="phone" placeholder="1(800)-529-3245" required>
+        <label> Message</label><textarea type="text"  class=message id="message" placeholder="Message" required></textarea>
+        <button onclick="mySend()">Send</button>
+    </form>
+    </div>
+    <div id="error"></div>
+    <div id="success"></div>
+</section>
+   
+<section>
+    <div class="form-box-left">
+        <h2>Contact Information </h2>
+        <ul>
+            <li> <img src="images/phone icon.jpeg"> Phone Number :1(800)-529-3245</li>
+            <li> <img src="images/location icon.jpeg">Location: 132 Main Street Miami,Fl</li>
+            <li> <img src="images/web-icon.jpeg">Digitalliteracy@DBFmail.com</li>
+        </ul>
+    </div>
+    <div class="volunteer">
+    <img src="images/helping older person.jpeg">
+</div> 
+</section>
+
+    <!-- Footer that includes icon and newsletter -->
+
+    <footer>
+     <div class="left">
+        <h3 id="left-words">Connect With Us</h3>
+        </div>
+
+    <div class="left-icon">
+        <ul class="icons">
+            <li><a href="#"><img src="images/facebook icon.png" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="images/instagram icon.png" height="50px" width="50px"></a></li>
+            <li><a href="#"><img src="images/twitter icon.png" height="50px" width="50px"></a></li>
+        </ul>
+    </div> 
+    </footer>
+</body>
+
+</html>
